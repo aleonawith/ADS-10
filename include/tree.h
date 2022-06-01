@@ -59,8 +59,7 @@ void Tree::perm(Node* root, std::string s) {
       if (p[z] == "") {
         p[z] = s;
         break;
-      }
-      else {
+      } else {
         ++z;
       }
     }
